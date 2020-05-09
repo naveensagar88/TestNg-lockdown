@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Loan Dept]" parallel="tests">
+  <parameter name="URL" value="PL.com"/>
+  <listeners>
+    <listener class-name="TestNGtutor.Listeners"/>
+  </listeners>
+  <test thread-count="2" name="Personalloan(failed)" parallel="tests">
+    <parameter name="URL" value="PL.com"/>
+    <classes>
+      <class name="TestNGtutor.Day2">
+        <methods>
+          <include name="DemoBefore"/>
+          <include name="login"/>
+          <include name="Beforeevery"/>
+          <include name="AfterTest"/>
+          <include name="Beforeclass"/>
+          <include name="BeforeeachTC"/>
+          <include name="Afterclass"/>
+        </methods>
+      </class> <!-- TestNGtutor.Day2 -->
+    </classes>
+  </test> <!-- Personalloan(failed) -->
+</suite> <!-- Failed suite [Loan Dept] -->

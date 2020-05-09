@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Loans]">
+  <test thread-count="5" name="Regression(failed)">
+    <groups>
+      <run>
+        <exclude name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNGtutor.Day4">
+        <methods>
+          <include name="MobileSignin"/>
+          <include name="DemoBefore"/>
+        </methods>
+      </class> <!-- TestNGtutor.Day4 -->
+      <class name="TestNGtutor.Day3">
+        <methods>
+          <include name="AfterTest"/>
+          <include name="BeforeeachTC"/>
+          <include name="WebLoginCarLoan"/>
+          <include name="Afterclass"/>
+          <include name="Beforeclass"/>
+          <include name="DemoBefore"/>
+          <include name="Beforeevery"/>
+        </methods>
+      </class> <!-- TestNGtutor.Day3 -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Loans] -->

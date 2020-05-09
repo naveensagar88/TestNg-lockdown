@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test2(failed)">
+    <classes>
+      <class name="TestNGtutor.Day2">
+        <methods>
+          <include name="DemoBefore"/>
+          <include name="Beforeevery"/>
+          <include name="Beforeclass"/>
+          <include name="AfterTest"/>
+          <include name="BeforeeachTC"/>
+          <include name="Afterclass"/>
+        </methods>
+      </class> <!-- TestNGtutor.Day2 -->
+      <class name="TestNGtutor.TestBase">
+        <methods>
+          <include name="Beforeclass"/>
+          <include name="BeforeeachTC"/>
+          <include name="Afterclass"/>
+        </methods>
+      </class> <!-- TestNGtutor.TestBase -->
+      <class name="TestNGtutor.Day4">
+        <methods>
+          <include name="MobileSignin"/>
+          <include name="DemoBefore"/>
+        </methods>
+      </class> <!-- TestNGtutor.Day4 -->
+      <class name="TestNGtutor.Day1">
+        <methods>
+          <include name="DemoBefore"/>
+          <include name="Beforeclass"/>
+          <include name="BeforeeachTC"/>
+          <include name="Afterclass"/>
+        </methods>
+      </class> <!-- TestNGtutor.Day1 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

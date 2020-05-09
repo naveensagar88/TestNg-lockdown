@@ -1,0 +1,1 @@
+ant compile clean compile run
