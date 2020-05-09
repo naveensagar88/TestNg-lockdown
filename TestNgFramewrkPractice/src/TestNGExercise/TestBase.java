@@ -1,4 +1,4 @@
-package TestNGtutor;
+package TestNGExercise;
 
 import java.io.FileInputStream;
 import java.io.IOException;

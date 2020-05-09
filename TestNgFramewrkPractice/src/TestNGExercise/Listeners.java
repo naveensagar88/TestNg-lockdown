@@ -1,4 +1,4 @@
-package TestNGtutor;
+package TestNGExercise;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;

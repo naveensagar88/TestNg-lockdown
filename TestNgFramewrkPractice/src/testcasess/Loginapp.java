@@ -23,6 +23,8 @@ public class Loginapp {
 		RediffHomepage Rh = new RediffHomepage(driver);
 		Rh.Search().sendKeys("rocky");
 		Rh.Submit().click();
+		System.out.println("Super"
+				+ "star");
 		
 		
 	}
