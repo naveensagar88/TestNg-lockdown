@@ -26,7 +26,7 @@ public class Day4 {
 	public void MobileLoginHomeLoan()
 	{
 		
-		System.out.println("MobileHome Login");
+		System.out.println("Mobile Home Login");
 	}
 	
 	@Parameters("URL")

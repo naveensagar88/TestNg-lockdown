@@ -22,7 +22,7 @@ public class Day2 extends TestBase {
 	public void Beforeevery() throws IOException
 	{
 		login();
-		System.out.println("I am LAST 1 ");
+		System.out.println("I am  LAST 1 ");
 	}
 	
 }
