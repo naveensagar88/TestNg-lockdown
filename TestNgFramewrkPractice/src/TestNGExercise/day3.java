@@ -64,7 +64,7 @@ public void befoclas()
 	public void MobilesignoutcarLoan(String username,String password)
 	{
 		//Appium
-		System.out.println("Mobile SIGNOUT");
+		System.out.println("Mobile  SIGNOUT");
 		System.out.println(username);
 		System.out.println(password);
 		
